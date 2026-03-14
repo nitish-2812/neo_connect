@@ -2,7 +2,7 @@
 
 > A transparent, accountable platform where staff can raise issues, vote on polls, and see how management is responding.
 
-© 2026 NeoConnect Technologies Inc. vijay
+© 2026 NeoConnect Technologies Inc. nitish
 
 ---
 
@@ -276,4 +276,4 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 
 ## 📜 License
 
-© 2026 NeoConnect Technologies Inc. vijay
+© 2026 NeoConnect Technologies Inc. nitish

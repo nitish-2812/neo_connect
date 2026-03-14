@@ -314,7 +314,7 @@ export default function LandingPage() {
 
       {/* ============= MOCK FOOTER ============= */}
       <footer className="py-10 px-6 max-w-7xl mx-auto border-t border-white/5 text-sm text-white/40 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p>© 2026 NeoConnect Technologies Inc.vijay</p>
+        <p>© 2026 NeoConnect Technologies Inc. nitish</p>
         <div className="flex text-white/40 gap-6">
           <Link href="#" className="hover:text-white transition-colors">Privacy</Link>
           <Link href="#" className="hover:text-white transition-colors">Terms</Link>

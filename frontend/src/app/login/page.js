@@ -148,7 +148,7 @@ export default function LoginPage() {
           </div>
           
           <div className="mt-8 text-center text-xs text-white/40">
-            <p>© 2026 NeoConnect. Secure internal portal. vijay</p>
+            <p>© 2026 NeoConnect. Secure internal portal. nitish</p>
           </div>
         </div>
 
