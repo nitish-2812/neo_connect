@@ -1,0 +1,18 @@
+node_modules
+.DS_Store
+*.log
+.env
+.env.local
+.next/
+build/
+coverage/
+
+# Sub-directory ignores
+backend/uploads/
+backend/node_modules/
+backend/.env
+frontend/.next/
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env
