@@ -60,6 +60,52 @@ npm run dev
 
 ---
 
+## 🌍 Deployment Guide
+
+The NeoConnect platform is designed to be easily deployed to modern cloud providers.
+
+### 1. Deploying the Backend (Render / Railway / Heroku)
+
+The Node.js/Express backend requires a MongoDB database to run.
+
+1. **Database Setup**: Create a free cluster on [MongoDB Atlas](https://www.mongodb.com/atlas). Get your connection string.
+2. **Hosting**: Create a new Web Service on Render or Railway.
+3. **Repository**: Connect your GitHub repository.
+4. **Root Directory**: Set the root directory for this service to `backend`.
+5. **Environment Variables**: Add the following securely in your hosting dashboard:
+   - `MONGODB_URI`: Your MongoDB Atlas connection string.
+   - `JWT_SECRET`: A strong, randomly generated string for secure authentication.
+   - `PORT`: Leave blank or set to `5000` (cloud providers usually inject their own).
+6. **Commands**:
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+7. **Deploy** and copy your live backend URL (e.g., `https://neoconnect-api.onrender.com/api`).
+
+### 2. Deploying the Frontend (Vercel / Netlify)
+
+The Next.js frontend is heavily optimized for platforms like Vercel and Netlify.
+
+**Option A: Vercel (Recommended)**
+1. Go to [Vercel](https://vercel.com) and click **Add New Project**.
+2. **Repository**: Import your GitHub repository.
+3. **Root Directory**: Click "Edit" and change to `frontend`.
+4. **Framework Preset**: Ensure it is set to **Next.js**.
+5. **Environment Variables**: Add `NEXT_PUBLIC_API_URL` with your live backend URL (e.g., `https://neoconnect-api.onrender.com/api`).
+6. **Deploy**.
+
+**Option B: Netlify**
+1. Go to [Netlify](https://app.netlify.com) and click **Add new site** > **Import an existing project**.
+2. **Repository**: Connect your GitHub and select the `neo-connect2.0` repository.
+3. **Base directory**: Set this to `frontend`. Note: Netlify will automatically detect Next.js.
+4. **Build command**: Should auto-populate to `npm run build`.
+5. **Publish directory**: Should auto-populate to `.next`.
+6. Click **Show advanced** and add an **Environment variable**:
+   - Key: `NEXT_PUBLIC_API_URL`
+   - Value: Your live backend URL (e.g., `https://neoconnect-api.onrender.com/api`).
+7. Click **Deploy site**.
+
+---
+
 ## 🏗️ Tech Stack
 
 | Layer      | Technology                                    |
