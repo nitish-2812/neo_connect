@@ -1,5 +1,5 @@
 # NeoConnect — Staff Feedback & Complaint Management Platform
-
+🌐 **Live Demo:** [https://neo-connect.netlify.app](https://neo-connect.netlify.app)
 > A transparent, accountable platform where staff can raise issues, vote on polls, and see how management is responding.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
