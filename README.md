@@ -2,7 +2,12 @@
 
 > A transparent, accountable platform where staff can raise issues, vote on polls, and see how management is responding.
 
-© 2026 NeoConnect Technologies Inc. nitish
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-5-000000?logo=express)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-8-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![JWT](https://img.shields.io/badge/Auth-JWT-orange?logo=jsonwebtokens)](https://jwt.io/)
 
 ---
 
@@ -274,6 +279,14 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 
 ---
 
+## 🤝 Contributing
+
+Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md) for details on how to fork, branch, and submit pull requests.
+
+---
+
 ## 📜 License
 
-© 2026 NeoConnect Technologies Inc. nitish
+This project is licensed under the [MIT License](LICENSE).
+
+Copyright © 2026 Nitish

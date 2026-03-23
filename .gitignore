@@ -5,7 +5,13 @@ node_modules
 .env.local
 .next/
 build/
+dist/
 coverage/
+
+# Lint & temp files
+lint.json
+lint.txt
+lint2.txt
 
 # Sub-directory ignores
 backend/uploads/
