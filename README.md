@@ -9,6 +9,10 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![JWT](https://img.shields.io/badge/Auth-JWT-orange?logo=jsonwebtokens)](https://jwt.io/)
 
+🔗 **Live Demo**: [neo-connect.netlify.app](https://neo-connect.netlify.app)
+
+![NeoConnect Dashboard](./screenshot.png)
+
 ---
 
 ## 🚀 Quick Start
